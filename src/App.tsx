@@ -20,6 +20,10 @@ import { useTierListStore } from "./store";
 import type { Book } from "./types";
 import ConfirmationModal from "./components/ConfirmationModal";
 import BookDetailsModal from "./components/BookDetailsModal";
+import libraryBg from './assets/library.webp';
+import flowersBg from './assets/flowers.webp';
+import cityBg from './assets/city.webp';
+import sandBg from './assets/sand.webp';
 
 // --- 1. НОВЫЙ КОМПОНЕНТ ДЛЯ ОТРИСОВКИ ФОНА ---
 const ThemeBackground = ({ themeId }: { themeId: string }) => {
@@ -29,7 +33,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <>
           <div
             style={{
-              backgroundImage: `url(/library.webp)`
+              backgroundImage: `url(${libraryBg})`
             }}
             className="fixed inset-0 bg-cover bg-center z-[-1]"
           />
@@ -41,7 +45,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <>
           <div
             style={{
-              backgroundImage: `url(/flowers.webp)`,
+              backgroundImage: `url(${flowersBg})`,
             }}
             className="fixed inset-0 bg-cover bg-center z-[-1]"
           />
@@ -53,7 +57,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <>
           <div
             style={{
-              backgroundImage: `url(/city.webp)`,
+              backgroundImage: `url(${cityBg})`,
             }}
             className="fixed inset-0 bg-cover bg-center z-[-1]"
           />
@@ -76,7 +80,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <div
           className="fixed inset-0 z-[-1] bg-[#f8f9fa]"
           style={{
-            backgroundImage: `url(/sand.webp)`,
+            backgroundImage: `url(${sandBg})`,
           }}
         />
       );
