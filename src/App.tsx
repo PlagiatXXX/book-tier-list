@@ -29,7 +29,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <>
           <div
             style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop')`,
+              backgroundImage: `url(/library.webp)`
             }}
             className="fixed inset-0 bg-cover bg-center z-[-1]"
           />
@@ -41,7 +41,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <>
           <div
             style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1651568773893-284763ed694f?q=80&w=1279&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+              backgroundImage: `url(/flowers.webp)`,
             }}
             className="fixed inset-0 bg-cover bg-center z-[-1]"
           />
@@ -53,7 +53,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <>
           <div
             style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1766498019113-133d6eb646b7?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+              backgroundImage: `url(/city.webp)`,
             }}
             className="fixed inset-0 bg-cover bg-center z-[-1]"
           />
@@ -76,7 +76,7 @@ const ThemeBackground = ({ themeId }: { themeId: string }) => {
         <div
           className="fixed inset-0 z-[-1] bg-[#f8f9fa]"
           style={{
-            backgroundImage: `url("https://images.unsplash.com/photo-1548759806-821febf1275c?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+            backgroundImage: `url(/sand.webp)`,
           }}
         />
       );
