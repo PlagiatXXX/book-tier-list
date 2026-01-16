@@ -44,7 +44,7 @@
 1.  **Клонируйте репозиторий:**
     ```bash
     git clone https://github.com/plagiatxxx/book-tier-list.git
-    cd [ИМЯ_РЕПОЗИТОРИЯ]
+    cd book-tier-list.git
     ```
 
 2.  **Установите зависимости:**
